@@ -1,0 +1,45 @@
+@startuml
+left to right direction
+actor "Клиент" as Client
+actor "Директор" as Director
+
+rectangle "CarWasher" {
+  usecase "US_A01: Регистрация пользователя" as Register
+  usecase "Ошибка подтверждения номера" as PhoneError
+  usecase "Подтверждение номера телефона" as PhoneConfirm
+  usecase "US_S01: Выбор автомойки" as CarWashChoice
+  usecase "Выбор города" as CityChoice
+  usecase "Выбор адреса" as AddressChoice
+  usecase "Выбор по поиску" as SearchChoice
+  usecase "US_P01: Оплата услуги" as PaymentService
+  usecase "Оплата" as Payment
+  usecase "Выбор способа оплаты" as PaymentMethod
+  usecase "Предоставление статистики о работе мойщиков" as Statistics
+  usecase "Отображение графиков (mini-bi)" as Graphs
+  usecase "Выгрузка CSV" as CSVExport
+}
+
+rectangle "СМС шлюз" as SMS
+rectangle "Платёжная система" as PaySystem
+rectangle "1С система" as System1C
+
+Client --> Register
+Register ..> PhoneConfirm : include
+Register ..> PhoneError : extend
+PhoneConfirm --> SMS
+
+Client --> CarWashChoice
+CarWashChoice --> CityChoice
+CarWashChoice --> AddressChoice
+CarWashChoice --> SearchChoice
+
+Client --> PaymentService
+PaymentService --> Payment
+PaymentService --> PaymentMethod
+Payment --> PaySystem
+Payment --> System1C
+
+Director --> Statistics
+Statistics --> Graphs
+Statistics --> CSVExport
+@enduml
