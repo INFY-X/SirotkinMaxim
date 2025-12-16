@@ -19,7 +19,7 @@
 
 | № | Компонент | Файлы |
 |---|-----------|-------|
-| **I** | **Требования** | [`Требования.md`]|
+| **I** | **Требования** | [`Требования.md`](./Требования.md) |
 | **II** | **Диаграмма последовательности** | [Диаграмма](./docs/sequenceDiagrams/LifeQueue.png)<br>![Диаграмма](./docs/sequenceDiagrams/LifeQueue.png) |
 | **III** | **ERD диаграмма** | ![ERD](./docs/ERD/carwash_H2O.svg) |
 | **IV** | **UseCase диаграмма** | ![UseCase](./docs/useCase/UML_UseCases.png) |
