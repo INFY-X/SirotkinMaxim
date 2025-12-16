@@ -13,17 +13,18 @@
 
 Проект представляет собой систему управления сетью автомоек, включающую функционал для клиентов, сотрудников и администраторов. Система обеспечивает полный цикл обслуживания — от выбора услуги до оплаты и анализа статистики.
 
-## Структура проекта
-
-### Документация и диаграммы
+## Структура проекта (документация и диаграммы)
 
 | № | Компонент | Файлы |
 |---|-----------|-------|
 | **I** | **Требования** | [`Требования.md`](./Требования.md) |
-| **II** | **Диаграмма последовательности** | [Диаграмма](./docs/sequenceDiagrams/LifeQueue.png)<br>![Диаграмма](./docs/sequenceDiagrams/LifeQueue.png) |
-| **III** | **ERD диаграмма** | ![ERD](./docs/ERD/carwash_H2O.svg) |
-| **IV** | **UseCase диаграмма** | ![UseCase](./docs/useCase/UML_UseCases.png) |
-| **V** | **User Story** | [`User_story.md`](./docs/userStory.md) |
-| **VI** | **User Story Mapping** | [`UserStory Mapping`](./docs/UserStoryMapping/User%20Story%20Mapping%202025-11-05-09-05.svg) |
-| **VII** | **Status Model** | ![Status Model](./docs/statusModel/model.png) |
-| **VIII** | **OpenAPI спецификация** | [`Open API`](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/WilhelmGans/autoH2O/main/docs/api-docs.json) |
+| **II** | **User_Stories** | [`User_Stories`](/.User_stories.md) |
+| **III** | **Open API** | [`Open API`](/.api-docs.yaml) |
+| **IV** | **UML диаграмма** | [`UML диаграмма`](./UML_отображение.png) |
+| **V** | **Story mapping** | [`Story_mapping`](./user_story_mapping.png) |
+| **VI** | **ERD** | [`ER_диаграмма`](./ER_диаграмма.png) |
+| **VII** | **Status Model** | [`Статусная_модель`](./Статус.png) |
+| **VIII** | **Sequance Diagram** | [`Sequance_Diagram`](./Sequance_Diagram.png) |
+| **IX** | **C4-диаграмма контекста системы** | [`Диаграмма_контекста_систем`](./C4_Диаграмма_контекста_системы_CarWash.png) |
+| **X** | **C4-диаграмма система записи** | [`Система_записи_на_мойку`](./C4_Система_записи_на_мойку_Авто_(CarWash).png) |
+| **XI** | **BPMN Бизнес процесс** | [`Бизнес_процесс`](./Бизнес_процесс_with_overlays.png) |
