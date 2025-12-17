@@ -18,7 +18,7 @@
 | № | Компонент | Файлы |
 |---|-----------|-------|
 | **I** | **Требования** | [`Требования.md`](./Требования.md) |
-| **II** | **User_Stories** | [`User_Stories`](/.User_stories.md) |
+| **II** | **User_Stories** | [`User_Stories`](/.User stories.md) |
 | **III** | **Open API** | [`Open API`](/.api-docs.yaml) |
 | **IV** | **UML диаграмма** | [`UML диаграмма`](./UML_отображение.png) |
 | **V** | **Story mapping** | [`Story_mapping`](./user_story_mapping.png) |
