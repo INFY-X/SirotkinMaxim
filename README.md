@@ -19,7 +19,7 @@
 |---|-----------|-------|
 | **I** | **Требования** | [`Требования.md`](./Требования.md) |
 | **II** | **User_Stories** | [`User_Stories`](./User_Stories.md) |
-| **III** | **Open API** | [`Open API`](/.api-docs.yaml) |
+| **III** | **Open API** | [`Open API`](./api-docs.yaml) |
 | **IV** | **UML диаграмма** | [`UML диаграмма`](./UML_отображение.png) |
 | **V** | **Story mapping** | [`Story_mapping`](./user_story_mapping.png) |
 | **VI** | **ERD** | [`ER_диаграмма`](./ER_диаграмма.png) |
